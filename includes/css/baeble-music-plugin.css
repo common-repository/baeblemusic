@@ -1,0 +1,358 @@
+li.tiles {
+    display: inline-block;
+    list-style-type: none;
+    width: 150px;
+    background-color: white;
+    -moz-box-shadow: 0 1px 5px 0px #ccc;
+    -webkit-box-shadow: 0 1px 5px 0px 
+    #CCC;
+    box-shadow: 0 1px 5px 0px 
+    #CCC;
+    /* margin-bottom: 23px; */
+    margin-right: 23px;
+}
+
+li.tiles .media-thumb-container {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+li.tiles .media-info {
+    margin: 15px 15px 13px 15px;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    height: 34px;
+    white-space: normal;
+    overflow: visible;
+}
+
+li.tiles .social_buttons {
+
+}
+
+li.tiles .media-meta {
+    color: #999;
+    border-top: 1px solid #DDD;
+    /* padding: 15px; */
+    font-family: Arial;
+    text-align: right;
+    font-size: 11px;
+}
+
+li.tiles .views {
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+li.tiles .social_buttons {
+    padding-top:15px;
+    padding-right: 5px;
+}
+
+li.tiles .media-thumb-container a {
+    width: 150px;
+    height: 100px;
+    vertical-align: middle;
+}
+
+a.tile_link {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial
+}
+
+a.tile_link:hover {
+    text-decoration: underline
+}
+
+.heading {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0195C6;
+    margin-left: 40px;
+    margin-top: -70px;
+}
+
+.heading_top {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0195C6;
+    margin-left: 40px;
+    margin-top: 47px;
+}
+
+
+span.roll {
+    background:url(../images/icon_play.png) center center no-repeat #000;
+    height: 100px;
+    position: absolute;
+    width: 150px;
+    z-index: 10;	
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px  #000;
+    box-shadow: 0px 0px 4px  #000; 
+} 
+ 
+span.rollover {
+    opacity: 1;
+    -o-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition: -webkit-transform 1s;
+    background:url(../images/mag.png) center center no-repeat #000;
+    cursor: pointer;
+    height: 346px;
+    width: 347px;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+}
+
+span.rollover:hover {
+    opacity: .7;
+    -o-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition: -webkit-transform 1s;
+    -webkit-box-shadow: 0px 0px 4px #000;
+    -moz-box-shadow: 0px 0px 4px #000;
+    box-shadow: 0px 0px 4px #000;
+}
+
+#driver {
+    position: relative;
+    top: -197px;
+    /* left: 550px; */
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver:active {
+    background-image:url('../images/arrow_right.png');
+    background-position:0px 2px;
+}
+
+#driver2 {
+    position: relative;
+    top: -150px;
+    /* left: 500px; */
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2:active {
+    background-image:url('../images/arrow_left.png');
+    background-position:0px 2px;
+}
+
+#driver_newest {
+    position: relative;
+    top: -197px;
+    left: 550px;
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver_newest:active {
+background-image:url('../images/arrow_right.png');
+background-position:0px 2px;
+}
+
+#driver2_newest {
+    position: relative;
+    top: -150px;
+    left: 500px;
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2_newest:active {
+background-image:url('../images/arrow_left.png');
+background-position:0px 2px;
+}
+
+#driver_concerts {
+    position: relative;
+    top: -197px;
+    left: 550px;
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver_concerts:active {
+background-image:url('../images/arrow_right.png');
+background-position:0px 2px;
+}
+
+#driver2_concerts {
+    position: relative;
+    top: -150px;
+    left: 500px;
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2_concerts:active {
+background-image:url('../images/arrow_left.png');
+background-position:0px 2px;
+}
+
+#driver_sessions {
+    position: relative;
+    top: -197px;
+    left: 550px;
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver_sessions:active {
+background-image:url('../images/arrow_right.png');
+background-position:0px 2px;
+}
+
+#driver2_sessions {
+    position: relative;
+    top: -150px;
+    left: 500px;
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2_sessions:active {
+background-image:url('../images/arrow_left.png');
+background-position:0px 2px;
+}
+
+#driver_interviews {
+    position: relative;
+    top: -197px;
+    left: 550px;
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver_interviews:active {
+background-image:url('../images/arrow_right.png');
+background-position:0px 2px;
+}
+
+#driver2_interviews {
+    position: relative;
+    top: -150px;
+    left: 500px;
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2_interviews:active {
+background-image:url('../images/arrow_left.png');
+background-position:0px 2px;
+}
+
+#driver_music {
+    position: relative;
+    top: -197px;
+    left: 550px;
+    background: transparent url('../images/arrow_right.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+
+#driver_music:active {
+background-image:url('../images/arrow_right.png');
+background-position:0px 2px;
+}
+
+#driver2_music {
+    position: relative;
+    top: -150px;
+    left: 500px;
+    background: transparent url('../images/arrow_left.png') no-repeat center top;
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+    border-color: #FFF #FFF #FFF #FFF;
+    cursor: pointer;
+}
+
+#driver2_music:active {
+background-image:url('../images/arrow_left.png');
+background-position:0px 2px;
+}
+
+#display_trending {
+padding-top: 20px;    
+}
+
+#display_newest {
+padding-top: 20px;    
+}
+
+#display_concerts {
+padding-top: 20px;    
+}
+
+#display_sessions {
+padding-top: 20px;    
+}
+
+#display_interviews {
+padding-top: 20px;    
+}
+
+#display_music {
+padding-top: 20px;    
+}
